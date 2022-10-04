@@ -1,0 +1,151 @@
+.container{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    font-color:#1d1d1f;
+}
+
+h2{
+    font-size:2.5rem;
+}
+
+.photo {
+    height: 221px;
+    width: 166px;
+    border-radius: 25px;
+}
+
+.interface {
+    height: 400px;
+    width: 510px;
+}
+.caption{
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    color: #727272;
+}
+
+.response{
+    color: #121212;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
+.interface-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h3-children {
+    margin-top:4rem;
+}
+
+p,li{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.problem-and-context{
+    padding: 20px 30rem;
+    background-color: #f2f2f2;
+}
+
+.contextual-inquiry{
+    padding: 20px 30rem;
+}
+
+.observation{
+    padding: 20px 30rem;
+    background-color: #f2f2f2;
+}
+
+.personas{
+    padding: 20px 30rem;
+}
+
+.storyboards{
+    padding-top: 20px;
+    background-color: #f2f2f2;
+}
+
+.storyboards-container{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px 500px;
+}
+
+.storyboards-text{
+    padding-left: 20rem;
+}
+
+.sb{
+    /*object-fit: cover;*/
+    width: 100%;
+    max-height: 100%;
+}
+
+.sb1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.sb2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.sb3{
+    grid-column: 1;
+    grid-row: 2;
+}
+.sb4{
+    grid-column: 2;
+    grid-row: 2;
+}
+.sb5{
+    grid-column: 1;
+    grid-row: 3;
+}
+.sb6{
+    grid-column: 2;
+    grid-row: 3;
+}
+.sb7{
+    grid-column: 1;
+    grid-row: 4;
+}
+.sb8{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+
+
+
+
+.persona-image{
+    height: 440px;
+    width: 330px;
+}
+.persona-container{
+    display: flex;
+}
+
+.text-image{
+    display: flex;
+}
+/*.text-image-text{*/
+/*    padding-right: 10rem;*/
+/*    margin-top: 0;*/
+/*}*/
+
+
